@@ -1,4 +1,4 @@
 FROM wso2/wso2is
 
 WORKDIR /etc/
-RUN "cat /etc/group"
+CMD "cat group"
