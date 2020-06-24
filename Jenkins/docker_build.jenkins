@@ -22,5 +22,10 @@ pipeline {
                 }
             }
         }
+        stage("Print server uptime") {
+            steps {
+                sh 'uptime'
+            }
+        }
     }
 }
