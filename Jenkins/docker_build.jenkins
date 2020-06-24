@@ -15,7 +15,7 @@ pipeline {
             steps {
                 echo "============== start building image =============="
                 dir ('Docker') {
-                    sh 'docker build -t Jenkins-first-steps:latest .'
+                    sh 'docker build -t jenkins-first-steps:latest .'
                 }
             }
         }
